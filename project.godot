@@ -76,6 +76,7 @@ Settings/Show_Tooltips=true
 
 config/name="Your First 2D Game With Godot 4: START (GDQuest)"
 config/features=PackedStringArray("4.6", "Forward Plus")
+boot_splash/bg_color=Color(0.24401152, 0.08886107, 0.0016453497, 1)
 config/icon="res://icon.png"
 
 [display]
