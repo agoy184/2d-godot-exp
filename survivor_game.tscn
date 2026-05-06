@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bvp0oy6d34s7n"]
+
+[ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/player.tscn" id="1_wkcnj"]
+
+[node name="Node2D" type="Node2D" unique_id=76758253]
+
+[node name="HappyBoo" parent="." unique_id=1091727253 instance=ExtResource("1_wkcnj")]
+position = Vector2(2, 91)
