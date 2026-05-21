@@ -1,8 +1,38 @@
 [gd_scene format=3 uid="uid://bvp0oy6d34s7n"]
 
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/player.tscn" id="1_wkcnj"]
+[ext_resource type="PackedScene" uid="uid://vk50tubkjkm1" path="res://pineTree.tscn" id="2_8id3q"]
+[ext_resource type="Script" uid="uid://yh2ao5or56lq" path="res://player.gd" id="2_kbdm8"]
 
 [node name="Node2D" type="Node2D" unique_id=76758253]
 
+[node name="ColorRect" type="ColorRect" parent="." unique_id=556708443]
+offset_right = 1602.0
+offset_bottom = 987.0
+
 [node name="HappyBoo" parent="." unique_id=1091727253 instance=ExtResource("1_wkcnj")]
-position = Vector2(2, 91)
+position = Vector2(807, 526)
+script = ExtResource("2_kbdm8")
+
+[node name="StaticBody2D" parent="." unique_id=304369951 instance=ExtResource("2_8id3q")]
+position = Vector2(1243, 659)
+
+[node name="StaticBody2D2" parent="." unique_id=692992188 instance=ExtResource("2_8id3q")]
+position = Vector2(912, 697)
+
+[node name="StaticBody2D3" parent="." unique_id=1329459235 instance=ExtResource("2_8id3q")]
+position = Vector2(466, 688)
+
+[node name="StaticBody2D4" parent="." unique_id=1891762130 instance=ExtResource("2_8id3q")]
+position = Vector2(114, 560)
+
+[node name="StaticBody2D5" parent="." unique_id=1348185560 instance=ExtResource("2_8id3q")]
+position = Vector2(243, 75)
+
+[node name="StaticBody2D6" parent="." unique_id=474883802 instance=ExtResource("2_8id3q")]
+position = Vector2(718, -19)
+
+[node name="StaticBody2D7" parent="." unique_id=1973189222 instance=ExtResource("2_8id3q")]
+position = Vector2(1200, 18)
+
+[editable path="HappyBoo"]
